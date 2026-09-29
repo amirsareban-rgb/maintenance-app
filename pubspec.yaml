@@ -1,0 +1,21 @@
+name: maintenance_app
+description: سیستم مدیریت تعمیرات
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  intl: ^0.18.0
+  pdf: ^3.10.0
+  printing: ^5.11.0
+  path_provider: ^2.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
